@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> 
+<html class="no-js" lang="en" > <!--<![endif]-->
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+	<title>Projects</title>
+	<link rel="stylesheet" href="css/normalize.css" />  
+	<link rel="stylesheet" href="css/foundation.css" />
+	<script src="js/vendor/custom.modernizr.js"></script>
+</head>
+<body>
+
+	<!-- Nav and Banner -->  
+	<div class="row">
+		<div class="large-12 columns">
+			<ul class="button-group">
+				<li><a href="index.html" class="button">Home</a></li>
+				<li><a href="projects.html" class="button">Projects</a></li>
+				<li><a href="#" class="button">Resume</a></li>
+				<li><a href="interests.html" class="button">Interests</a></li>
+				<li><a href="links.html" class="button">Links</a></li>
+			</ul>      
+			<!-- Main Banner Image - place in a paragraph to enforce the modular scale spacing -->
+			<p><img src="img/Circuit_Banner.jpg" /></p>
+		</div>
+	</div>
+	<!-- End Nav and Banner -->
+	
+	<!-- Main Content --> 
+	<!-- First Band (Slider) -->
+	<div class="row">
+		<div class="large-12 columns">
+			<div class="orbit-container orbit-stack-on-small"> 
+			<ul id="orbit" class="orbit-slides-container" data-orbit>
+				<li class="active">
+					<img src="img/Penguins.gif" />
+					<div class="orbit-caption">Penguins!</div>
+				</li>
+				<li>
+					<img src="http://placehold.it/1000x400&text=[ img 2 ]" />
+					<div class="orbit-caption">...</div>
+				</li>
+				<li>
+					<img src="http://placehold.it/1000x400&text=[ img 3 ]" />
+					<div class="orbit-caption">...</div>
+				</li>
+			</ul>
+
+	<!-- Prev/Next Arrows -->
+			<a href="#" class="orbit-prev">
+				"Prev"
+				<span></span>
+			</a>
+			<a href="#" class="orbit-next"> 
+				"Next"
+				<span></span>
+			</a>
+  <!-- Slide Numbers -->
+		   <div class="orbit-slide-number">
+				<span>1</span>
+				 of  
+				<span>3</span>
+			</div>
+
+  <!-- Timer and Play/Pause Button -->
+		   <div class="orbit-timer">
+				<span></span>
+				<div class="orbit-progress" style="width: 100%; -webkit-transition: width 5s linear;"></div>
+			</div>
+		</div>
+		<hr>
+	</div>
+</div>
+	<!-- Three-up Content Blocks -->
+	
+	<div class="row">
+		<div class="large-4 columns">
+			<img src="http://placehold.it/400x300&text=[img]" />
+			<h4>Java Game Framework</h4>
+			<h5><i>In Progress</i> </h5>
+			<p>I'm currently working on making a flexible game framework in java that can be used to easily make simple java games. There are lots of robust frameworks already out there but they are so large and flexible it is hard for someone with limited experience to pick up and easily understand. It's something that is fun and hopefully other people will be able to use it when its done, although it still has a lot of work to be done on it. I love game "demakes" and I'm really looking forward to using this to demake all my old favorites.</p>
+		</div>
+		<div class="large-4 columns">
+			<img src="http://placehold.it/400x300&text=[img]" />
+			<h4>This website</h4>
+			<p>This site is a constant work in progress as I understand more about web development. I am also trying to add more cool content and features to the site, maybe even something useful eventually.</p>
+		</div> 
+		<div class="large-4 columns">
+			<img src="http://placehold.it/400x300&text=[img]" />
+			<h4>visit again soon</h4>
+			<p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
+		</div>	
+	</div>
+	<!-- End Main Content -->  
+	
+	<!-- Footer -->
+	<footer class="row">
+		<div class="large-12 columns">
+			<hr />
+			<div class="row">
+				<div class="large-6 columns">
+					<p>Built With Foundation 4</p>
+				</div>
+				<div class="large-6 columns">
+					<ul class="inline-list right">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="projects.html">Projects</a></li>
+						<li><a href="#">Resume</a></li>
+						<li><a href="interests.html">Interests</a></li>
+						<li><a href="links.html">Links</a></li>
+					</ul>
+				</div>
+			</div>
+		</div> 
+	</footer>
+	<script src="js/vendor/zepto.js"></script>
+	<script src="js/foundation.min.js"></script>
+	<script>
+		$(document).foundation();
+	</script>
+	<script>
+  document.write('<script src=/js/vendor/'
+    + ('__proto__' in {} ? 'zepto' : 'jquery')
+    + '.js><\/script>');
+</script>
+</body>
+</html>
