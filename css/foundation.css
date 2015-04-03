@@ -1045,7 +1045,7 @@ td {
 
 /* Default Link Styles */
 a {
-  color: #515151;
+  color: blue;
   text-decoration: none;
   line-height: inherit; }
   a:hover, a:focus {
